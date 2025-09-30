@@ -27,7 +27,10 @@ function topSalary(obj) {
     //     nameUser = user[0];
     //   }
     // });
+ 
     for (const [name, value] of arraySalaries) {
+        //const [name, value] = arr;
+
       if (value > maxValue) {
         maxValue = value;
         nameUser = name;
@@ -37,3 +40,5 @@ function topSalary(obj) {
   }
 }
 topSalary(salaries);
+
+arraySalaries = [['John', 100], ['Pete', 300],['Mary', 250]];
