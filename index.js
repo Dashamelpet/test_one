@@ -1,13 +1,14 @@
 //1
 let user = {
   name: 'John',
-  years: 40,
+  years: 30,
+  lo : false
 };
 
 // const { name, years, isAdmin = false } = user;
 // alert(isAdmin);
 //2
-let salaries = {
+const salaries = {
   John: 100,
   Pete: 300,
   Mary: 250,
