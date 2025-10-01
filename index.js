@@ -13,6 +13,7 @@ const salaries = {
   John: 100,
   Pete: 300,
   Mary: 250,
+  Haa  :100
 };
 
 function topSalary(obj) {
