@@ -7,7 +7,6 @@ let user = {
 
 // const { name, years, isAdmin = false } = user;
 // alert(isAdmin);
-
 //2
 const salaries = {
   John: 100,
@@ -43,4 +42,4 @@ function topSalary(obj) {
 }
 topSalary(salaries);
 
-arraySalaries = [['John', 100], ['Pete', 300],['Mary', 250]];
+// arraySalaries = [['John', 100], ['Pete', 300],['Mary', 250]];
